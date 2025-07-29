@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+
+    /* nav bar */
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link,
+    .nav-right {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-top: 20px;
+    }
+
+    .nav-right button {
+        margin-top: 20px;
+        padding: 10px 30px;
+    }
+
+    /* header */
+    .header-main {
+        width: 98%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-left,
+    .header-right {
+        width: 100%;
+
+    }
+
+    .header-right img {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+}
